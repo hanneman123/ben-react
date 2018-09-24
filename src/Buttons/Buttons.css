@@ -1,0 +1,8 @@
+.MainButton {
+  background-color: #373740;
+  font: inherit;
+  color: inherit;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PersonsContainer {
+  flex: 50%;
+}
+
+.BurgerContainer {
+  flex: 50%;
+}
+
+.HeaderContainer {
+  flex: 100%;
+  height: 100px;
+  background-color: #282828;
+}
+
+.PersonsList.visible {
+  transition: transform .1s ease;
+}
+
+.PersonsList.hidden {
+  transform: translate(-100%);
+  transition: transform .1s ease;
+}

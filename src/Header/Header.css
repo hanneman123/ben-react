@@ -1,0 +1,8 @@
+.HeaderComponent {
+  padding: 20px;
+}
+
+.HeaderComponent button {
+  width: 60px;
+  height: 100%;
+}
